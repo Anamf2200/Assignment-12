@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .child{
+            animation-name: first;
+            animation-duration: 1s;
+            animation-iteration-count: 2;
+            position: relative;
+           
+        }
+
+        @keyframes first {
+0%{
+    top: 0%;
+    right: 0%;
+}
+25%{
+    top: 0%;
+    right: 100%;
+}
+75%{
+top: 50%;
+right: 100%;
+}
+100%{
+    top: 100%;
+    right: 50%;
+}
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="child">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae enim recusandae nobis sequi
+                aspernatur assumenda natus tempore quisquam </p>
+        </div>
+    </div>
+
+</body>
+
+</html>
